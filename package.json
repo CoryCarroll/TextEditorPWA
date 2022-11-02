@@ -1,8 +1,11 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "Text Editor",
   "main": "server.js",
+  "engines": {
+    "node": "16.16.0"
+  },
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",

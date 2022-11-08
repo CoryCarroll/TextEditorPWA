@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Text Editor",
   "main": "server.js",
-  "engines": {
-    "node": "16.16.0"
-  },
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
@@ -19,8 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4",
-    "webpack-pwa-manifest": "^4.3.0"
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",

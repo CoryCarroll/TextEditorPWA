@@ -7,6 +7,7 @@
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server nodemon server.js --ignore client",
+    "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build",
     "client": "cd client && npm start"
   },

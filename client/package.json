@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "frontend",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",

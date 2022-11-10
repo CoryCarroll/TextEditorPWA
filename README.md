@@ -7,7 +7,7 @@ This is a simple text editor application that uses a PWA and is deployed through
 You will need to git clone the repository to your local machine, then to use the application run the following command in your terminal to install the needed packages using npm install. From there use command npm run start:dev.
 
 # Deployed Site
-
+REPO: https://github.com/CoryCarroll/TextEditorPWA 
 
 # Usage
 

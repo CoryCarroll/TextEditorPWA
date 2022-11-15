@@ -34,9 +34,9 @@ module.exports = () => {
         new WebpackPwaManifest({
           fingerprints: false,
           inject: true,
-          name: 'Jate Database',
-          short_name: 'Jate',
-          description: 'Jate!',
+          name: 'JATE',
+          short_name: 'JATE',
+          description: 'JATE!',
           background_color: '#225ca3',
           theme_color: '#225ca3',
           start_url: './',
